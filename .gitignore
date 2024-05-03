@@ -1,0 +1,4 @@
+node_modules/
+setting/
+package-lock.json
+package.json
