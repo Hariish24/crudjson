@@ -1,6 +1,6 @@
 import express from "express"
 import dotenv from "dotenv"
-import apiRouter from "./router/apirouter.js"
+import apirouter from "./router/apirouter.js"
 
 
 dotenv.config({"path":"./setting/config.env"})
