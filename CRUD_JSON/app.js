@@ -14,7 +14,7 @@ app.get("/",(req,resp)=>{
     resp.send("Root Request")
 })
 
-app.use("/api",apiRouter)
+app.use("/api",apirouter)
 app.listen(port,host,(err)=>{
     if(err) throw err
     console.log(`sever running successfully : http://${host}:${port}`); //http://127.0.0.1:5050
