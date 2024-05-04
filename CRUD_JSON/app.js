@@ -9,6 +9,10 @@ let port = process.env.PORT
 let host = process.env.HOST
 
 const app = express()
+app.use(express.json()); // it is used read the client side form data
+app.use(express.urlencoded({
+  extended: true
+}));
 
 app.get("/",(req,resp)=>{
     resp.send("Root Request")
